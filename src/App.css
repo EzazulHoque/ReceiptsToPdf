@@ -1,0 +1,211 @@
+/* * {
+  box-sizing: border-box;
+}
+@-moz-document url-prefix() {
+  select, select:-moz-focusring, select::-moz-focus-inner {
+     color: transparent !important;
+     text-shadow: 0 0 0 #000 !important;
+     background-image: none !important;
+     border:0;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+.unstyled::-webkit-inner-spin-button,
+.unstyled::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  background-color: #ededed;
+  margin: 0;
+} */
+/* input:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+textarea:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+} */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: font-size-base;
+  font-family: font-sans-serif;
+  color: dark-grey;
+}
+body {
+  box-sizing: border-box;
+  background: light-grey;
+  padding: spacing;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: container-width;
+  width: container-width;
+  background: white;
+  border-radius: border-radius;
+  padding: spacing;
+  box-shadow: box-shadow;
+}
+
+inpu
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: spacing;
+  margin-top: spacing;
+}
+.form__title {
+  font-weight: 700;
+}
+.form__subtitle {
+  padding: 0.5rem 0;
+  color: #888;
+}
+.form__input, .form__input--fullwidth, .form__input--fullwidth--icon input {
+  border-radius: 0.5rem;
+  border: 0;
+  background: #eee;
+  padding: 1rem;
+  font-size: 0.75rem;
+  transition: transition;
+  color: dark-grey;
+}
+.form__input:focus, .form__input--fullwidth:focus, .form__input--fullwidth--icon input:focus {
+  background: rgba(255, 160, 122, .3);
+  border-radius: border-radius;
+  outline: 0;
+}
+.form__input--fullwidth {
+  grid-column: span 2;
+}
+.form__input--fullwidth--icon {
+  grid-column: span 2;
+  position: relative;
+}
+.form__input--fullwidth--icon input {
+  width: 100%;
+}
+.form__input__icon {
+  position: absolute;
+  right: calc(spacing / 2);
+  top: 50%;
+  transform: translateY(-50%);
+  color: salmon;
+}
+.form__button, .form__button--secondary {
+  padding: 1rem;
+  border-radius: border-radius;
+  border: 0;
+  background: salmon;
+  display: inline-block;
+  width: 150px;
+  justify-self: end;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  transition: transition;
+  outline: 0;
+}
+.form__button:hover, .form__button--secondary:hover {
+  background: lightsalmon;
+}
+.form__button--secondary {
+  border: 0;
+  background: 0;
+  justify-self: start;
+}
+
+input[type="date"]{border: none;} */
+
+
+/* input:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+}
+textarea:focus { 
+  background: rgba(255, 160, 122, .3);
+  border-radius: border-radius;
+  outline: 0;
+} */
+/* 
+
+
+
+
+
+
+
+
+.receipt {
+  background-color: #fff;
+  width: 22rem;
+  position: relative;
+  padding: 1rem;
+  box-shadow: 0 -0.4rem 1rem -0.4rem rgba(0,0,0,0.2);
+}
+
+.receipt:after {
+  background-image: linear-gradient(135deg, #fff 0.5rem, transparent 0), linear-gradient(-135deg, #fff 0.5rem, transparent 0);
+    background-position: left-bottom;
+    background-repeat: repeat-x;
+    background-size: 1rem;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    width: 100%;
+    height: 1rem;
+}
+
+.receipt__header {
+  text-align: center;
+}
+
+.receipt__title {
+  color: #FF619B;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 1rem 0 0.5rem;
+}
+.article
+{
+    display: flex;
+}
+.article .item,
+.article .price
+{
+    flex: 1 0 auto;
+}
+
+.article .dots
+{
+    flex: 0 1 auto;
+}
+
+.dots::before
+{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;  
+    text-overflow: clip;
+    content:
+    ". . . . . . . . . . . . . . . . . . . . "
+} */
+
