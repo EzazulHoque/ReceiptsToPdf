@@ -10,89 +10,49 @@ const thStyle = {
 class ComponentToPrint extends React.Component {
   render() {
     return (
-      <div class="receipt">
-                {/* <input style={{textAlign:"center", border:"none"}} placeholder="Your Company Name" type="text"/> */}
-                {/* <input  class="unstyled" style={{textAlign:"center",fontSize:"18px"}} type="date" id="date"/> */}
-                {/* <div class="row-fluid">
-      <select class="selectpicker" placeholder="Select Product" style={{border:"none", fontWeight:"strong", width:"100%", WebkitAppearance:"none"}} data-show-subtext="true" data-live-search="true">
-      <option data-subtext="Rep California">Select</option>
-        <option data-subtext="Rep California">Latte</option>
-        <option data-subtext="Sen California">Cappuccino</option>
-        <option data-subtext="Sen Massacusetts">Espresso</option>
-        <option data-subtext="Rep Alabama">Milkshake</option>
-        <option data-subtext="Rep Alaska">Chocolate</option>
-      </select>
-    </div> */}
-      <header class="receipt__header">
-        <p class="receipt__title">
-          <input style={{textAlign:"center", border:"none"}} placeholder="Your Company Name" type="text"/>
-         
-        </p>
-        <p class="receipt__date" align="center">
-        <input  class="unstyled" style={{textAlign:"center",fontSize:"18px"}} type="date" id="date"/>
-        </p>
-      </header>
-     <div class="row">
-        
-        <div>
-        <div class="article">
-    <span class="item" style={{marginLeft:"2%"}}><select class="selectpicker" placeholder="Select Product" style={{border:"none", fontWeight:"strong", width:"100%", WebkitAppearance:"none"}} data-show-subtext="true" data-live-search="true">
-      <option data-subtext="Rep California">Select</option>
-        <option data-subtext="Rep California">Latte</option>
-        <option data-subtext="Sen California">Cappuccino</option>
-        <option data-subtext="Sen Massacusetts">Espresso</option>
-        <option data-subtext="Rep Alabama">Milkshake</option>
-        <option data-subtext="Rep Alaska">Chocolate</option>
-      </select>
-      </span>
-    <span class="dots"></span>
-    <span class="price"> $<input style={{textAlign:"center", border:"none", width:"20%"}} placeholder="$" type="text"/></span>
-</div>
+      <div class="container">
+          <div style={{marginLeft:"25%", padding:"5%"}} class="rcptBorder mt-5">
+            <div align="center" class="mt-2">
+              <input type="text" placeholder="Your company name" style={{width:"320px", height:"64px", fontSize:"32px", textAlign:"center", border:"none"}} />
+            </div>
+                <div class="row mt-5">
+                  <div class="col">
+                    <input type="text" placeholder="Receipt Number" style={{width:"inherit", height:"42px", fontSize:"16px", textAlign:"center", border:"none"}} />
+                  </div>
+                  <div class="col">
+                    <input type="text" placeholder="Date" style={{width:"inherit", height:"42px", fontSize:"16px", textAlign:"center", border:"none"}} />
+                  </div>
+                </div>
+                <div class="line"></div>
+                <div class="row mt-5">
+                  <div class="col">
+                    <input type="text" placeholder="Item" style={{width:"inherit", height:"42px", fontSize:"16px", textAlign:"center", border:"none"}} />
+                    
+                    <input class="mt-2" type="text" placeholder="Item" style={{width:"inherit", height:"42px", fontSize:"16px", textAlign:"center", border:"none"}} />
+                    <input class="mt-2" type="text" placeholder="Item" style={{width:"inherit", height:"42px", fontSize:"16px", textAlign:"center", border:"none"}} />
+                    <input class="mt-2" type="text" placeholder="Item" style={{width:"inherit", height:"42px", fontSize:"16px", textAlign:"center", border:"none"}} />
 
-<div class="article">
-    <span class="item" style={{marginLeft:"2%"}}><select class="selectpicker" placeholder="Select Product" style={{border:"none", fontWeight:"strong", width:"100%", WebkitAppearance:"none"}} data-show-subtext="true" data-live-search="true">
-      <option data-subtext="Rep California">Select</option>
-        <option data-subtext="Rep California">Latte</option>
-        <option data-subtext="Sen California">Cappuccino</option>
-        <option data-subtext="Sen Massacusetts">Espresso</option>
-        <option data-subtext="Rep Alabama">Milkshake</option>
-        <option data-subtext="Rep Alaska">Chocolate</option>
-      </select>
-      </span>
-    <span class="dots"> </span>
-    <span class="price"> $<input style={{textAlign:"center", border:"none", width:"20%"}} placeholder="$" type="text"/></span>
-</div>
+                  </div>
+                  <div class="col">
+                    <input type="text" placeholder="Price" style={{width:"inherit", height:"42px", fontSize:"16px", textAlign:"center", border:"none"}} />
+                   
+                    <input class="mt-2" type="text" placeholder="Price" style={{width:"inherit", height:"42px", fontSize:"16px", textAlign:"center", border:"none"}} />
+                    <input class="mt-2" type="text" placeholder="Price" style={{width:"inherit", height:"42px", fontSize:"16px", textAlign:"center", border:"none"}} />
+                    <input class="mt-2" type="text" placeholder="Price" style={{width:"inherit", height:"42px", fontSize:"16px", textAlign:"center", border:"none"}} />
 
-<div class="article">
-    <span class="item" style={{marginLeft:"2%"}}><select class="selectpicker" placeholder="Select Product" style={{border:"none", fontWeight:"strong", width:"100%", WebkitAppearance:"none"}} data-show-subtext="true" data-live-search="true">
-      <option data-subtext="Rep California">Select</option>
-        <option data-subtext="Rep California">Latte</option>
-        <option data-subtext="Sen California">Cappuccino</option>
-        <option data-subtext="Sen Massacusetts">Espresso</option>
-        <option data-subtext="Rep Alabama">Milkshake</option>
-        <option data-subtext="Rep Alaska">Chocolate</option>
-      </select>
-      </span>
-    <span class="dots"> </span>
-    <span class="price"> $<input style={{textAlign:"center", border:"none", width:"20%"}} placeholder="$" type="text"/></span>
-</div>
-<div class="article">
-    <span class="item" style={{marginLeft:"2%"}}><select class="selectpicker" placeholder="Select Product" style={{border:"none", fontWeight:"strong", width:"100%", WebkitAppearance:"none"}} data-show-subtext="true" data-live-search="true">
-      <option data-subtext="Rep California">Select</option>
-        <option data-subtext="Rep California">Latte</option>
-        <option data-subtext="Sen California">Cappuccino</option>
-        <option data-subtext="Sen Massacusetts">Espresso</option>
-        <option data-subtext="Rep Alabama">Milkshake</option>
-        <option data-subtext="Rep Alaska">Chocolate</option>
-      </select>
-      </span>
-    <span class="dots"> </span>
-    <span class="price"> $<input style={{textAlign:"center", border:"none", width:"20%"}} placeholder="$" type="text"/></span>
-</div>
-   
-        </div>
-     </div>
-    </div>
+                  </div>
+                </div>
+                <div class="line"></div>
+                <div class="row mt-5">
+                  <div class="col">
+                  <div align="center" class="h2">Total</div>                 
+                </div>
+                  <div class="col">
+                    <input type="text" placeholder="Total Price" style={{width:"inherit", height:"42px", fontSize:"22px", textAlign:"center", border:"none"}} />
+                  </div>
+                </div>
+          </div>
+      </div>
     );
   }
 }
